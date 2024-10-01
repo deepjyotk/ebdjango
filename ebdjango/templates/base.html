@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}My site{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>My site header</h1>
+    </header>
+
+    <div>
+        {% block content %}
+        <!-- Content from extending templates will be rendered here -->
+        {% endblock %}
+    </div>
+
+    <footer>
+        <p>My site footer</p>
+    </footer>
+</body>
+</html>

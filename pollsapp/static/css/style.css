@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f1f7f5; /* Light background for contrast */
+}
+
+.container {
+    max-width: 60%;  /* Increased to 60% for better spacing */
+    margin: 40px auto; /* Added auto margin to center container */
+    padding: 20px; /* Added padding for better spacing */
+    background-color: #ffffff;
+    border-radius: 10px; /* Added smooth border radius */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+    color: #2a2d34; /* Dark grey title color */
+    font-weight: 600; /* Slightly bolder font weight */
+    text-align: center;
+}
+
+.list-group {
+    margin-top: 40px; /* Increased top margin for better spacing */
+    padding-left: 0;
+    list-style: none; /* Removed bullets from list */
+}
+
+.list-group li {
+    background-color: #e6f3f1; /* Light teal background */
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.list-group li:hover {
+    background-color: #c4e2df; /* Slightly darker teal on hover */
+}
+
+.btn-primary {
+    margin-top: 30px !important;
+    padding: 10px 20px;
+    background-color: #20b2aa; /* Teal button background */
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 8px; /* Soft button edges */
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #1e918f; /* Darker teal on hover */
+}
+
+label, li, input {
+    cursor: pointer;
+    color: #2a2d34; /* Dark grey text for contrast */
+    font-size: 1.1rem; /* Slightly larger font size for readability */
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #bbb; /* Light border */
+    border-radius: 5px;
+    width: 100%;
+}
+
+input:focus {
+    border-color: #20b2aa; /* Teal border on focus */
+    outline: none;
+}
