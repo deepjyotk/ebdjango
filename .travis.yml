@@ -8,11 +8,13 @@ dist: focal  # Use Ubuntu 20.04 (which has SQLite 3.31.1 by default)
 install:
   - pip install -U pip
   - pip install -r requirements.txt
+  - python manage.py migrate
+
 
 # Apply migrations and run tests
 script:
   - python manage.py migrate
-  - coverage run --source=polls manage.py test  # Run tests and measure coverage
+  - coverage run --source=mysite,polls manage.py test
   - black --check .
   - flake8
 
@@ -31,6 +33,7 @@ deploy:
   region: "us-east-1"  # Your AWS region
   app: "ebdjango8"  # Your Elastic Beanstalk app name
   env: "Ebdjango8-env"  # Your Elastic Beanstalk environment name
+  bucket_name: elasticbeanstalk-us-east-1-533267413906
   on:
     branch: main
   # Deploy only on the master branch
