@@ -25,13 +25,20 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECRET_KEY = ''
 
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'your-fallback-secret-key')
+# SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'your-fallback-secret-key')
 
-
+SECRET_KEY = 'django-insecure-&e@^^m2n8#8gszo36b-5_j2lfbp!n%vkbrcdj4fg@hse&zbu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-env.eba-uypr5ve5.us-west-2.elasticbeanstalk.com','localhost','127.0.0.1', 'django-env2.eba-j27d8ku3.us-west-2.elasticbeanstalk.com']
+# ALLOWED_HOSTS = [
+#     ".elasticbeanstalk.com",  # This will match any subdomain of elasticbeanstalk.com
+#     "localhost",
+#     "127.0.0.1",
+#     '198.211.99.20'
+# ]
+ALLOWED_HOSTS = ['*','django-dev-env.eba-j27d8ku3.us-west-2.elasticbeanstalk.com'] # if you are in dev or docker
+
 
 
 # Application definition
