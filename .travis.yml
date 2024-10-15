@@ -13,7 +13,6 @@ install:
 script:
   - python manage.py migrate
   - coverage run --source=polls manage.py test  # Run tests and measure coverage
-  - coverage report  # Print coverage report to the console
   - black --check .
   - flake8
 
