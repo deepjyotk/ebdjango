@@ -1,6 +1,6 @@
 # Django App Deployment on AWS Elastic Beanstalk
 
-Deployed Django Application: [http://django-env.eba-uypr5ve5.us-west-2.elasticbeanstalk.com/](http://django-env.eba-uypr5ve5.us-west-2.elasticbeanstalk.com/)
+Deployed Django Application: [http://django-env2.eba-j27d8ku3.us-west-2.elasticbeanstalk.com/polls/](http://django-env2.eba-j27d8ku3.us-west-2.elasticbeanstalk.com/polls/)
 
 ## Table of Contents
 
