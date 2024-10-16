@@ -1,9 +1,17 @@
+
+# Travis
+[![Build Status](https://app.travis-ci.com/deepjyotk/ebdjango.svg?token=DshHywy8DJZVn4vVJ5Hg&branch=main)](https://app.travis-ci.com/deepjyotk/ebdjango)
+
+
+
+
 # Django App Deployment on AWS Elastic Beanstalk
 
 Deployed Django Application: [http://django-env2.eba-j27d8ku3.us-west-2.elasticbeanstalk.com/polls/](http://django-env2.eba-j27d8ku3.us-west-2.elasticbeanstalk.com/polls/)
 
 ## Table of Contents
 
+- [Travis](#travis)
 - [Django App Deployment on AWS Elastic Beanstalk](#django-app-deployment-on-aws-elastic-beanstalk)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
