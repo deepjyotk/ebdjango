@@ -2,7 +2,7 @@
 # Travis
 [![Build Status](https://app.travis-ci.com/deepjyotk/ebdjango.svg?token=DshHywy8DJZVn4vVJ5Hg&branch=main)](https://app.travis-ci.com/deepjyotk/ebdjango)
 
-[![Coverage Status](https://coveralls.io/repos/github/deepjyotk/ebdjango/badge.svg?branch=)](https://coveralls.io/github/deepjyotk/ebdjango?branch=)
+[![Coverage Status](https://coveralls.io/repos/github/deepjyotk/ebdjango/badge.svg)](https://coveralls.io/github/deepjyotk/ebdjango)
 
 # Django App Deployment on AWS Elastic Beanstalk
 
