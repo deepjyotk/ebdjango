@@ -14,7 +14,7 @@ install:
 # Apply migrations and run tests
 script:
   - python manage.py migrate
-  - coverage run --source=mysite,polls manage.py test
+  - coverage run --source=ebdjango,pollsapp manage.py test
   - black --check .
   - flake8
 
